@@ -1,92 +1,110 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. Judul Browser -->
     <title>Profil Saya</title>
 </head>
-<body>
-<h1>hello world
-
-</h1>
-    <h1>Halo, Saya Ramadhan Fajar Saputra</h1>
-
-    <<img src="foto-saya.jpg" alt="Foto Profil" width="200">
-
-    <h2>Biodata</h2>
-    <ul>
-        <li><strong>Nama:</strong> RAMADHAN FAJAR SAPUTRA</li>
-        <li><strong>Umur:</strong> 19 Tahun</li>
-        <li><strong>Kota:</strong> Surabaya</li>
-        <li><strong>Hobi:</strong> mengerjakan tugas dan membuat website</li>
-        <li><strong>Cita-cita:</strong> Menjadi full stack Programmer</li>
-    </ul>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Saya</title>
-</head>
-<body style="background-color: #f0f8ff; font-family: Arial, sans-serif; margin: 20px;">
+<body style="font-family: Arial, sans-serif; background-color: #ffffff; color: #333333; margin: 0; padding: 20px 40px; line-height: 1.5;">
 
     <!-- Header -->
-    <h1 style="color: darkblue; text-align: center;">
-        Halo, Saya Naylendra
-    </h1>
+    <header style="text-align: center; margin-bottom: 30px;">
+        <h1 style="color: #0b5394; font-size: 36px; font-weight: bold; margin-bottom: 5px;">Halo, Saya Arif</h1>
+        <hr style="border: none; border-top: 2px solid #3498db; width: 100%; margin-top: 15px;">
+    </header>
 
-    <hr>
+    <!-- Bagian Atas: Foto & Tentang Saya -->
+    <div style="display: flex; gap: 30px; align-items: center; margin-bottom: 30px;">
+        <!-- Foto Profil -->
+        <div style="flex: 1; text-align: center;">
+            <img src="assets/foto.jpg" alt="Foto fajar 2" style="width: 220px; height: 220px; border-radius: 50%; object-fit: cover; border: 1px solid #ccc;">
+        </div>
+        
+        <!-- Kotak Tentang Saya -->
+        <div style="flex: 2; background-color: #fffdf0; border: 1px solid #f1e5c2; border-radius: 8px; padding: 20px;">
+            <h2 style="color: #274e13; margin-top: 0; font-size: 22px;">Tentang Saya</h2>
+            <p style="margin: 8px 0;">Saya adalah seorang santri di pondokit. Saat ini saya sedang belajar untuk menjadi Fullstack Web Developer.</p>
+            <p style="margin: 8px 0;">Saya sangat antusias belajar programmeri.</p>
+        </div>
+    </div>
 
-    <!-- Foto -->
-    <img src="https://via.placeholder.com/200"
-         alt="Foto Profil"
-         style="width:200px; border:4px solid blue; border-radius:15px; display:block; margin:auto;">
+    <!-- Bagian Tengah: Biodata & Cerita Singkat -->
+    <div style="display: flex; gap: 30px; margin-bottom: 30px;">
+        <!-- Kotak Biodata -->
+        <div style="flex: 1; background-color: #edf7ed; border: 1px solid #c2ebd0; border-radius: 8px; padding: 20px;">
+            <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px;">Biodata</h2>
+            <table style="width: 100%; border-collapse: collapse; font-size: 16px;">
+                <tr>
+                    <td style="padding: 5px 0; font-weight: bold; width: 35%;">• Nama</td>
+                    <td style="padding: 5px 0;">: ramadhanfajarsaputra</td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px 0; font-weight: bold;">• Umur</td>
+                    <td style="padding: 5px 0;">: 19 Tahun</td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px 0; font-weight: bold;">• Kota</td>
+                    <td style="padding: 5px 0;">: surabaya</td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px 0; font-weight: bold;">• Hobi</td>
+                    <td style="padding: 5px 0;">: membuat website</td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px 0; font-weight: bold; vertical-align: top;">• Cita-cita</td>
+                    <td style="padding: 5px 0;">: Menjadi Fullstack Developer</td>
+                </tr>
+            </table>
+        </div>
 
-    <hr>
+        <!-- Kotak Cerita Singkat -->
+        <div style="flex: 2; padding: 0 10px;">
+            <h2 style="color: #741b47; margin-top: 0; font-size: 22px;">Cerita Singkat</h2>
+            <p style="margin: 8px 0; text-align: justify;">Saya mulai tertarik dengan dunia programming ketika saya melihat banyak aplikasi dan website keren di internet. Saya ingin membuat hal serupa dan bisa bermanfaat untuk orang lain.</p>
+            <p style="margin: 8px 0; text-align: justify;">Tujuan saya mengikuti mentoring ini adalah untuk belajar dari dasar dengan bimbingan mentor yang berpengalaman. Saya berharap setelah lulus saya bisa bekerja sebagai developer profesional dan membantu keluarga saya.</p>
+            <p style="margin: 8px 0; text-align: justify;">Saya percaya bahwa konsistensi dan kemauan belajar adalah kunci untuk mencapai impian.</p>
+        </div>
+    </div>
 
-    <!-- Biodata -->
-    <h2 style="color: green;">Biodata</h2>
+    <hr style="border: none; border-top: 2px solid #e06666; margin: 30px 0;">
 
-    <ul style="background-color:#ffffff; padding:15px; border:2px solid gray; border-radius:10px;">
-        <li><strong>Nama:</strong> Naylendra</li>
-        <li><strong>Umur:</strong> 17 Tahun</li>
-        <li><strong>Kota:</strong> Sidoarjo</li>
-        <li><strong>Hobi:</strong> Bermain game dan belajar coding</li>
-        <li><strong>Cita-cita:</strong> Menjadi Programmer</li>
-    </ul>
+    <!-- Bagian Media Sosial -->
+    <div style="text-align: center; margin-bottom: 30px;">
+        <h2 style="color: #e06666; font-size: 24px; margin-bottom: 20px;">Temukan Saya</h2>
+        <div style="display: flex; justify-content: center; gap: 30px;">
+            <!-- GitHub Card -->
+            <div style="background-color: #f1f8ff; border: 1px solid #c8e1ff; border-radius: 8px; padding: 15px 25px; display: flex; align-items: center; gap: 15px; width: 250px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                <img src="https://flaticon.com" alt="GitHub" style="width: 40px; height: 40px;">
+                <div style="text-align: left;">
+                    <a href="https://github.com" target="_blank" style="color: #0366d6; font-weight: bold; text-decoration: none; font-size: 18px;">GitHub</a>
+                    <div style="font-size: 13px; color: #586069;">github.com/</div>
+                </div>
+            </div>
+            <!-- Instagram Card -->
+            <div style="background-color: #fff0f5; border: 1px solid #ffd1dc; border-radius: 8px; padding: 15px 25px; display: flex; align-items: center; gap: 15px; width: 250px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                <img src="https://flaticon.com" alt="Instagram" style="width: 40px; height: 40px;">
+                <div style="text-align: left;">
+                    <a href="https://instagram.com" target="_blank" style="color: #d62976; font-weight: bold; text-decoration: none; font-size: 18px;">Instagram</a>
+                    <div style="font-size: 13px; color: #586069;">instagram.com/Fajar_620289</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <hr>
+    <hr style="border: none; border-top: 2px solid #38761d; margin: 30px 0;">
 
-    <h2 style="color: orange;">Cerita Singkat</h2>
+    <!-- Bagian Quotes -->
+    <div style="background-color: #fff7e6; border: 1px solid #ffe0b2; padding: 15px; border-radius: 4px; text-align: center; max-width: 60%; margin: 0 auto 40px auto;">
+        <p style="font-style: italic; margin: 0 0 5px 0; font-size: 16px;">"Terus belajar, terus berkembang, dan jangan pernah menyerah."</p>
+        <span style="font-size: 14px; font-weight: bold; color: #555;">— Unknown</span>
+    </div>
 
-    <p style="font-size:18px; color:#333;">
-        Saya adalah seorang pelajar yang ingin belajar web programming di pondok it agar bisa membuat website sendiri.
-        Saya mengikuti mentoring untuk menambah ilmu dan memahami dasar-dasar HTML, CSS, dan JavaScript.
-        Saya senang mempelajari teknologi karena menurut saya dunia digital memiliki banyak peluang.
-        Setelah lulus sekolah, saya ingin melanjutkan pendidikan di bidang teknologi informasi.
-        Impian saya adalah menjadi seorang programmer yang dapat membuat aplikasi dan website yang bermanfaat bagi banyak orang.
-    </p>
-
-    <hr>
-
-    <h2 style="color: purple;">Media Sosial</h2>
-
-    <p>
-        <a href="https://github.com/" target="_blank">GitHub</a>
-    </p>
-
-    <p>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-    </p>
-
-    <hr>
+    <hr style="border: none; border-top: 1px solid #ccc; margin-bottom: 20px;">
 
     <!-- Footer -->
-    <footer style="text-align:center; color:gray;">
-        <p>&copy; 2026 - Profil Saya</p>
+    <footer style="text-align: center; font-size: 14px; color: #666666; padding-bottom: 20px;">
+        &copy; 2024 Arif Maulana. All Rights Reserved.
     </footer>
 
 </body>

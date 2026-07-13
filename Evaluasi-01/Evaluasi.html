@@ -1,0 +1,1390 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ptramfajarsapcorporate</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    background:#0d6efd;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd43b;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+    line-height:32px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 35px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn1{
+    background:#0d6efd;
+    color:white;
+}
+
+.btn2{
+    background:#198754;
+    color:white;
+}
+
+/* ================= CONTAINER ================= */
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:70px 0;
+}
+
+.judul{
+    text-align:center;
+    font-size:36px;
+    color:#0d6efd;
+    margin-bottom:45px;
+}
+
+/* ================= TENTANG ================= */
+
+.tentang{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.tentang img{
+    width:450px;
+    max-width:100%;
+    border-radius:15px;
+    box-shadow:0 8px 18px rgba(0,0,0,.2);
+}
+
+.tentang-text{
+    flex:1;
+}
+
+.tentang-text h3{
+    color:#198754;
+    margin-bottom:15px;
+}
+
+.tentang-text p{
+    line-height:30px;
+    text-align:justify;
+}
+
+/* ================= LAYANAN ================= */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    font-size:45px;
+}
+
+.card h3{
+    color:#0d6efd;
+    margin:15px 0;
+}
+
+.card p{
+    line-height:28px;
+}
+
+/* ================= GALERI ================= */
+
+.galeri{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.galeri img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+/* ================= VIDEO ================= */
+
+.video{
+    text-align:center;
+}
+
+.video video{
+    width:900px;
+    max-width:100%;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">ptramfajarsapcorporate</div>
+
+<nav>
+
+<a href="#">Beranda</a>
+<a href="#tentang">Tentang Kami</a>
+<a href="#layanan">Layanan</a>
+<a href="#galeri">Galeri</a>
+<a href="#video">Video</a>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<h1>ptramfajarsapcorporate</h1>
+
+<p>
+Menyediakan solusi digital profesional berupa website,
+aplikasi, desain UI/UX, dan teknologi modern untuk
+mendukung perkembangan bisnis Anda.
+</p>
+
+<a href="#tentang" class="btn btn1">Pelajari Kami</a>
+
+<a href="#layanan" class="btn btn2">Layanan Kami</a>
+
+</div>
+
+</section>
+
+<!-- TENTANG -->
+
+<section class="container" id="tentang">
+
+<h2 class="judul">Tentang Kami</h2>
+
+<div class="tentang">
+
+<img src="images/ptramfajarsapcorporate.png" alt="ptramfajarsapcorporate">
+
+<div class="tentang-text">
+
+<h3>Perusahaan Teknologi Digital</h3>
+
+<p>
+ptramfajarsapcorporate merupakan perusahaan yang bergerak di bidang teknologi informasi
+yang berfokus pada pembuatan website, aplikasi, desain UI/UX,
+serta pengembangan sistem informasi. Kami berkomitmen memberikan
+layanan profesional, inovatif, dan berkualitas untuk membantu
+perkembangan bisnis pelanggan.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LAYANAN -->
+
+<section class="container" id="layanan">
+
+<h2 class="judul">Layanan Kami</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>🌐</h2>
+<h3>Website</h3>
+<p>Pembuatan website modern dan responsif.</p>
+</div>
+
+<div class="card">
+<h2>💻</h2>
+<h3>Aplikasi</h3>
+<p>Pengembangan aplikasi berbasis web.</p>
+</div>
+
+<div class="card">
+<h2>🎨</h2>
+<h3>UI / UX</h3>
+<p>Desain antarmuka yang menarik dan nyaman.</p>
+</div>
+
+<div class="card">
+<h2>🛠</h2>
+<h3>Maintenance</h3>
+<p>Perawatan sistem, hosting, dan keamanan website.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- GALERI -->
+
+<section class="container" id="galeri">
+
+<h2 class="judul">Galeri Perusahaan</h2>
+
+<div class="galeri">
+
+<img src="images/kantor1.jpg" alt="">
+<img src="images/kantor2.jpg" alt="">
+<img src="images/kantor3.jpg" alt="">
+
+</div>
+
+</section>
+
+<!-- VIDEO -->
+
+<section class="container" id="video">
+
+<h2 class="judul">Video Company Profile</h2>
+
+<div class="video">
+
+<video controls>
+
+<source src="video/company-profile.mp4" type="video/mp4">
+
+Browser Anda tidak mendukung video.
+
+</video>
+
+</div>
+
+</section>
+
+</body>
+</html>
+
+<!-- ==================================================
+                    BAGIAN 2A
+             VISI • MISI • KEUNGGULAN
+================================================== -->
+
+<style>
+
+/* Background Bagian 2 */
+.section2{
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    padding:80px 8%;
+}
+
+/* Judul */
+.section2-title{
+    text-align:center;
+    color:white;
+    font-size:40px;
+    margin-bottom:60px;
+    font-weight:bold;
+}
+
+/* Grid */
+.section2-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+/* Card */
+.section2-card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,.3);
+    border-radius:20px;
+    padding:35px;
+    color:white;
+    text-align:center;
+    transition:0.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.section2-card:hover{
+    transform:translateY(-10px);
+    background:rgba(255,255,255,.25);
+}
+
+.section2-card h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.section2-card h2{
+    margin-bottom:20px;
+}
+
+.section2-card p{
+    line-height:30px;
+}
+
+/* Keunggulan */
+
+.keunggulan{
+    margin-top:80px;
+}
+
+.keunggulan-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+.keunggulan-box{
+
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.4s;
+
+}
+
+.keunggulan-box:hover{
+
+    transform:scale(1.05);
+
+}
+
+.keunggulan-box h1{
+
+    font-size:50px;
+    margin-bottom:15px;
+
+}
+
+.keunggulan-box h3{
+
+    color:#0d6efd;
+    margin-bottom:15px;
+
+}
+
+.keunggulan-box p{
+
+    color:#555;
+    line-height:28px;
+
+}
+
+</style>
+
+<!-- VISI MISI -->
+
+<section class="section2">
+
+<h1 class="section2-title">
+
+Visi & Misi Perusahaan
+
+</h1>
+
+<div class="section2-grid">
+
+<div class="section2-card">
+
+<h1>🎯</h1>
+
+<h2>Visi</h2>
+
+<p>
+
+Menjadi perusahaan teknologi digital
+yang inovatif, profesional,
+dan terpercaya dalam memberikan
+layanan terbaik bagi pelanggan.
+
+</p>
+
+</div>
+
+<div class="section2-card">
+
+<h1>🚀</h1>
+
+<h2>Misi</h2>
+
+<p>
+
+Mengembangkan solusi digital modern,
+memberikan pelayanan berkualitas,
+serta membangun hubungan jangka panjang
+dengan setiap klien.
+
+</p>
+
+</div>
+
+<div class="section2-card">
+
+<h1>💎</h1>
+
+<h2>Nilai Perusahaan</h2>
+
+<p>
+
+Profesional,
+Integritas,
+Inovasi,
+Kerja Sama,
+dan Kepuasan Pelanggan
+menjadi budaya kerja kami.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- KEUNGGULAN -->
+
+<div class="keunggulan">
+
+<h1 class="section2-title">
+
+Mengapa Memilih Kami?
+
+</h1>
+
+<div class="keunggulan-grid">
+
+<div class="keunggulan-box">
+
+<h1>⚡</h1>
+
+<h3>Cepat</h3>
+
+<p>
+
+Proses pengerjaan sesuai target
+dengan kualitas terbaik.
+
+</p>
+
+</div>
+
+<div class="keunggulan-box">
+
+<h1>💻</h1>
+
+<h3>Modern</h3>
+
+<p>
+
+Menggunakan teknologi terbaru
+yang aman dan responsif.
+
+</p>
+
+</div>
+
+<div class="keunggulan-box">
+
+<h1>🔒</h1>
+
+<h3>Aman</h3>
+
+<p>
+
+Data pelanggan terlindungi
+dengan sistem keamanan terbaik.
+
+</p>
+
+</div>
+
+<div class="keunggulan-box">
+
+<h1>🤝</h1>
+
+<h3>Profesional</h3>
+
+<p>
+
+Tim berpengalaman siap
+membantu setiap kebutuhan
+proyek Anda.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================
+                    BAGIAN 2B
+          TIM • STATISTIK • PARTNER • CTA
+=================================================== -->
+
+<style>
+
+/* TIM */
+.team-section{
+    padding:90px 8%;
+    background:#f8f9fc;
+}
+
+.team-title{
+    text-align:center;
+    font-size:40px;
+    color:#0d6efd;
+    margin-bottom:60px;
+}
+
+.team-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+}
+
+.team-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.4s;
+}
+
+.team-card:hover{
+    transform:translateY(-10px);
+}
+
+.team-card img{
+    width:160px;
+    height:160px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #0d6efd;
+    margin-bottom:20px;
+}
+
+.team-card h3{
+    color:#0d6efd;
+}
+
+.team-card p{
+    color:#666;
+}
+
+/* STATISTIK */
+
+.stats{
+    background:linear-gradient(135deg,#0d6efd,#20c997);
+    padding:80px 8%;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.stat-box{
+    background:white;
+    border-radius:18px;
+    text-align:center;
+    padding:35px;
+}
+
+.stat-box h1{
+    font-size:55px;
+    color:#0d6efd;
+}
+
+.stat-box p{
+    color:#666;
+    font-size:18px;
+}
+
+/* PARTNER */
+
+.partner{
+    padding:80px 8%;
+    background:white;
+}
+
+.partner-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:30px;
+    align-items:center;
+}
+
+.partner-grid img{
+    width:100%;
+    max-width:140px;
+    margin:auto;
+    display:block;
+    transition:.3s;
+}
+
+.partner-grid img:hover{
+    transform:scale(1.1);
+}
+
+/* CTA */
+
+.cta{
+    padding:90px 8%;
+    text-align:center;
+    background:linear-gradient(135deg,#6610f2,#0d6efd);
+    color:white;
+}
+
+.cta h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:19px;
+    line-height:30px;
+    margin-bottom:35px;
+}
+
+.cta a{
+    background:white;
+    color:#0d6efd;
+    text-decoration:none;
+    padding:15px 40px;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cta a:hover{
+    background:#ffd43b;
+    color:black;
+}
+
+</style>
+
+<!-- TIM -->
+
+<section class="team-section">
+
+<h1 class="team-title">
+Tim Profesional Kami
+</h1>
+
+<div class="team-grid">
+
+<div class="team-card">
+<img src="images/gambarradit.jfif">
+<h3>Radit</h3>
+<p>Chief Executive Officer</p>
+</div>
+
+<div class="team-card">
+<img src="images/gambarputra.jfif">
+<h3>Putra</h3>
+<p>Full Stack Developer</p>
+</div>
+
+<div class="team-card">
+<img src="images/gambardean.jfif">
+<h3>Dean</h3>
+<p>UI / UX Designer</p>
+</div>
+
+<div class="team-card">
+<img src="images/gambarhanan2.jfif">
+<h3>Hanan</h3>
+<p>Digital Marketing</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- STATISTIK -->
+
+<section class="stats">
+
+<h1 class="team-title" style="color:white;">
+Pencapaian Perusahaan
+</h1>
+
+<div class="stats-grid">
+
+<div class="stat-box">
+<h1>250+</h1>
+<p>Proyek Selesai</p>
+</div>
+
+<div class="stat-box">
+<h1>180+</h1>
+<p>Klien Puas</p>
+</div>
+
+<div class="stat-box">
+<h1>30+</h1>
+<p>Tim Profesional</p>
+</div>
+
+<div class="stat-box">
+<h1>8+</h1>
+<p>Tahun Pengalaman</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PARTNER -->
+
+<section class="partner">
+
+<h1 class="team-title">
+Partner Kami
+</h1>
+
+<div class="partner-grid">
+
+<img src="images/gambardean.jfif">
+<img src="images/gambarhanan2.jfif">
+<img src="images/gambarradit.jfif">
+<img src="images/gambarputra.jfif">
+<img src="images/logo5.png">
+
+</div>
+
+</section>
+
+<!-- CALL TO ACTION -->
+
+<section class="cta">
+
+<h1>
+Siap Mengembangkan Bisnis Anda?
+</h1>
+
+<p>
+Percayakan kebutuhan website, aplikasi, dan solusi digital
+kepada tim CodeVSS. Kami siap membantu mewujudkan proyek
+yang modern, cepat, dan berkualitas.
+</p>
+
+<a href="#kontak">
+Hubungi Kami
+</a>
+
+</section>
+
+<!-- ==========================================
+                BAGIAN 3
+           AUDIO & VIDEO COMPANY PROFILE
+========================================== -->
+
+<style>
+
+.media-section{
+    padding:80px 8%;
+    background:linear-gradient(135deg,#f8f9fa,#e9f2ff);
+}
+
+.media-title{
+    text-align:center;
+    font-size:40px;
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.media-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+    font-size:18px;
+}
+
+.media-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(450px,1fr));
+    gap:35px;
+}
+
+.media-card{
+    background:#ffffff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:0.4s;
+}
+
+.media-card:hover{
+    transform:translateY(-8px);
+}
+
+.media-card h2{
+    color:#0d6efd;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.media-card p{
+    text-align:center;
+    color:#555;
+    line-height:28px;
+    margin-bottom:25px;
+}
+
+.media-card audio,
+.media-card video{
+    width:100%;
+    border-radius:12px;
+}
+
+.info-box{
+    margin-top:50px;
+    background:#0d6efd;
+    color:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.info-box h2{
+    margin-bottom:15px;
+}
+
+.info-box p{
+    line-height:30px;
+}
+
+</style>
+
+<section class="media-section">
+
+<h1 class="media-title">
+Audio & Video Company Profile
+</h1>
+
+<p class="media-subtitle">
+Kenali lebih dekat CodeVSS melalui audio dan video profil perusahaan.
+</p>
+
+<div class="media-grid">
+
+<div class="media-card">
+
+<h2>🎧 Audio Company Profile</h2>
+
+<p>
+Dengarkan profil singkat perusahaan mengenai visi, misi,
+layanan, dan komitmen CodeVSS.
+</p>
+
+<audio controls>
+
+<source src="audio/company-profile.mp3" type="audio/mpeg">
+
+Browser Anda tidak mendukung audio.
+
+</audio>
+
+</div>
+
+<div class="media-card">
+
+<h2>🎥 Video Company Profile</h2>
+
+<p>
+Tonton video profil perusahaan untuk melihat layanan,
+tim profesional, serta berbagai proyek yang telah kami kerjakan.
+</p>
+
+<video controls>
+
+<source src="video/company-profile.mp4" type="video/mp4">
+
+Browser Anda tidak mendukung video.
+
+</video>
+
+</div>
+
+</div>
+
+<div class="info-box">
+
+<h2>✨ Solusi Digital Terbaik</h2>
+
+<p>
+ptramfajarsap berkomitmen memberikan layanan pembuatan website,
+aplikasi web, desain UI/UX, dan solusi digital modern dengan
+mengutamakan kualitas, keamanan, dan kepuasan pelanggan.
+</p>
+
+</div>
+
+</section>
+
+<!-- ==========================================
+                BAGIAN 4
+      KONTAK • MAPS • SOSIAL MEDIA • FOOTER
+========================================== -->
+
+<style>
+
+/* ================= KONTAK ================= */
+
+.contact-section{
+    background:#f5f7fb;
+    padding:80px 8%;
+}
+
+.contact-title{
+    text-align:center;
+    font-size:40px;
+    color:#0d6efd;
+    margin-bottom:50px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.contact-info{
+
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+.contact-info h3{
+
+    color:#0d6efd;
+    margin-bottom:20px;
+
+}
+
+.contact-info p{
+
+    margin:18px 0;
+    color:#555;
+    line-height:28px;
+
+}
+
+.contact-form{
+
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+
+}
+
+.contact-form button{
+
+    width:100%;
+    padding:15px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+
+}
+
+.contact-form button:hover{
+
+    background:#084298;
+
+}
+
+/* ================= MAP ================= */
+
+.map{
+
+    padding:80px 8%;
+    background:white;
+
+}
+
+.map iframe{
+
+    width:100%;
+    height:450px;
+    border-radius:15px;
+    border:none;
+
+}
+
+/* ================= SOSIAL ================= */
+
+.social{
+
+    background:linear-gradient(135deg,#0d6efd,#6610f2);
+    padding:60px;
+    text-align:center;
+    color:white;
+
+}
+
+.social h2{
+
+    margin-bottom:25px;
+
+}
+
+.social a{
+
+    display:inline-block;
+    margin:10px;
+    padding:14px 28px;
+    background:white;
+    color:#0d6efd;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.social a:hover{
+
+    background:#ffd43b;
+    color:black;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    background:#111827;
+    color:white;
+    padding:50px 8%;
+
+}
+
+.footer-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:35px;
+
+}
+
+.footer-grid h3{
+
+    margin-bottom:20px;
+    color:#4dabf7;
+
+}
+
+.footer-grid p,
+.footer-grid a{
+
+    color:#ddd;
+    text-decoration:none;
+    line-height:30px;
+
+}
+
+.copy{
+
+    text-align:center;
+    border-top:1px solid #444;
+    margin-top:40px;
+    padding-top:20px;
+    color:#aaa;
+
+}
+
+</style>
+
+<!-- KONTAK -->
+
+<section class="contact-section" id="kontak">
+
+<h1 class="contact-title">
+
+Hubungi Kami
+
+</h1>
+
+<div class="contact-grid">
+
+<div class="contact-info">
+
+<h3>📍 Alamat</h3>
+
+<p>
+Jl. Teknologi Digital No. 88<br>
+Surabaya, Jawa Timur
+</p>
+
+<h3>📞 Telepon</h3>
+
+<p>
++62 089637269098
+</p>
+
+<h3>📧 Emailramfajarsap@gmail.com</h3>
+
+<p>
+info@ramfajarsap@gmail.com
+</p>
+
+<h3>🕒 Jam Operasional</h3>
+
+<p>
+Senin - Jumat<br>
+08.00 - 17.00 WIB
+</p>
+
+</div>
+
+<div class="contact-form">
+
+<form>
+
+<input type="text" placeholder="Nama Lengkap">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Subjek">
+
+<textarea rows="6" placeholder="Tulis pesan Anda..."></textarea>
+
+<button type="submit">
+
+Kirim Pesan
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MAP -->
+
+<section class="map">
+
+<h1 class="contact-title">
+
+Lokasi Perusahaan
+
+</h1>
+
+<iframe
+src="https://www.google.com/maps?q=Surabaya&output=embed">
+</iframe>
+
+</section>
+
+<!-- SOSIAL -->
+
+<section class="social">
+
+<h2>Ikuti Kami</h2>
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">LinkedIn</a>
+
+<a href="#">YouTube</a>
+
+<a href="#">WhatsApp</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<h3>ramfajarsapcorporate</h3>
+
+<p>
+
+Perusahaan teknologi yang bergerak
+di bidang pengembangan website,
+aplikasi, dan solusi digital.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Menu</h3>
+
+<p><a href="#">Beranda</a></p>
+
+<p><a href="#">Tentang Kami</a></p>
+
+<p><a href="#">Layanan</a></p>
+
+<p><a href="#">Galeri</a></p>
+
+<p><a href="#">Kontak</a></p>
+
+</div>
+
+<div>
+
+<h3>Layanan</h3>
+
+<p>Website Development</p>
+
+<p>UI / UX Design</p>
+
+<p>Web Application</p>
+
+<p>Maintenance</p>
+
+<p>Hosting & Domain</p>
+
+</div>
+
+<div>
+
+<h3>Kontak</h3>
+
+<p>📧 inforamfajarsap@gmail.com</p>
+
+<p>📞 +089637269098</p>
+
+<p>🌐 www.ramfajarsap.com</p>
+
+</div>
+
+</div>
+
+<div class="copy">
+
+© 2026 <b>ramfajarsapcorporate</b> | All Rights Reserved
+
+</div>
+
+</footer>

@@ -94,21 +94,28 @@
     <section class="card">
         <h2>Kontak</h2>
 
-        <form>
+        <!-- Kontak -->
+<section class="card">
+    <h2>Kontak</h2>
 
-            <label>Nama</label><br>
-            <input type="text" placeholder="Masukkan Nama"><br><br>
+    <form action="#" method="post">
 
-            <label>Email</label><br>
-            <input type="email" placeholder="Masukkan Email"><br><br>
+        <label for="nama-pengguna">nama panjang:</label>
+         <input type="text" id="nama-pengguna" />
 
-            <label>Pesan</label><br>
-            <textarea rows="5" placeholder="Tulis pesan..."></textarea><br><br>
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan Nama" required><br><br>
 
-            <button type="submit">Kirim</button>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Masukkan Email" required><br><br>
 
-        </form>
-    </section>
+        <label for="pesan">Pesan</label><br>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan..." required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+
+    </form>
+   </section>
 
 </body>
 </html>

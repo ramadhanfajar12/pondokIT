@@ -1,0 +1,448 @@
+/* Reset standar global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Mengatur layar utama dan latar belakang gradasi */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Wadah utama kartu profil */
+.profile-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek interaktif saat kursor diarahkan ke kartu */
+.profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Bagian atas kartu / banner mini */
+.card-banner {
+    background: linear-gradient(45deg, #243b55, #141e30);
+    height: 110px;
+    width: 100%;
+}
+
+/* Kontainer konten teks di bawah banner */
+.card-content {
+    padding: 0 24px 32px 24px;
+    text-align: center;
+}
+
+/* Mengatur posisi foto agar tumpang tindih dengan banner */
+.profile-image-container {
+    width: 100px;
+    height: 100px;
+    margin: -50px auto 16px auto;
+    position: relative;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Pengaturan gaya teks nama dan pekerjaan */
+.profile-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 4px;
+}
+
+.profile-role {
+    font-size: 14px;
+    font-weight: 600;
+    color: #667eea;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.profile-bio {
+    font-size: 14px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+/* Desain baris statistik angka */
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 24px;
+    border-top: 1px solid #edf2f7;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.stat-count {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+.stat-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #718096;
+    margin-top: 2px;
+}
+
+/* Area tombol aksi */
+.profile-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Tombol utama */
+.btn-follow {
+    background: #667eea;
+    color: #ffffff;
+}
+
+.btn-follow:hover {
+    background: #5a67d8;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+/* Tombol sekunder */
+.btn-message {
+    background: #edf2f7;
+    color: #4a5568;
+}
+
+.btn-message:hover {
+    background: #e2e8f0;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#141e30,#243b55);
+
+    padding:50px;
+}
+
+h1{
+
+    text-align:center;
+    color:white;
+    margin-bottom:50px;
+}
+
+.container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+/*========================
+CARD UMUM
+=========================*/
+
+.card{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.3);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+button{
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+}
+
+/*==========================
+1 PRODUCT CARD
+==========================*/
+
+.product-card{
+
+    background:linear-gradient(135deg,#FF9A9E,#FAD0C4);
+
+}
+
+.product-card img{
+
+    width:100%;
+
+}
+
+.product-card .content{
+
+    padding:20px;
+
+}
+
+.price{
+
+    color:#d60000;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+}
+
+.product-card button{
+
+    background:#fff;
+
+}
+
+/*==========================
+2 PROFILE CARD
+==========================*/
+
+.profile-card{
+
+    text-align:center;
+
+    padding:35px;
+
+    color:white;
+
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+
+}
+
+.profile{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid white;
+
+    margin-bottom:20px;
+
+}
+
+.profile-card h4{
+
+    margin:10px 0;
+
+}
+
+.profile-card button{
+
+    background:white;
+
+}
+
+/*==========================
+3 PROMO CARD
+==========================*/
+
+.promo-card{
+
+    text-align:center;
+
+    color:white;
+
+    padding:40px;
+
+    background:linear-gradient(135deg,#fa709a,#fee140);
+
+}
+
+.promo{
+
+    background:white;
+
+    color:#ff0066;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    font-weight:bold;
+
+}
+
+.promo-card h2{
+
+    margin-top:30px;
+
+    font-size:35px;
+
+}
+
+.promo-card button{
+
+    background:white;
+
+}
+
+/*==========================
+4 ARTICLE CARD
+==========================*/
+
+.article-card{
+
+    background:linear-gradient(135deg,#43e97b,#38f9d7);
+
+}
+
+.article-card img{
+
+    width:100%;
+
+}
+
+.article-card .content{
+
+    padding:20px;
+
+}
+
+.kategori{
+
+    background:white;
+
+    color:green;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+}
+
+.article-card h2{
+
+    margin:20px 0;
+
+}
+
+.article-card a{
+
+    color:#004d40;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+/*==========================
+5 GLASS CARD
+==========================*/
+
+.glass-area{
+
+    height:350px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:20px;
+
+    background:linear-gradient(135deg,#667eea,#764ba2);
+
+}
+
+.glass-card{
+
+    width:260px;
+
+    padding:35px;
+
+    text-align:center;
+
+    color:white;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.3);
+
+}
+
+.glass-card button{
+
+    background:white;
+
+}

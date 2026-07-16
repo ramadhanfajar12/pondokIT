@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1f2937;
+    color:white;
+    padding:15px 60px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Hero Section */
+.hero{
+    height:400px;
+    background-image:url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+.hero-content h1{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#e68900;
+}
+
+/* Produk */
+.produk{
+    padding:50px;
+    text-align:center;
+}
+
+.produk h2{
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+.produk-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0 10px;
+}
+
+.card h4{
+    color:red;
+    margin-bottom:10px;
+}
+
+.card p{
+    padding:0 15px 20px;
+    color:#555;
+}
